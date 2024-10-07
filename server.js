@@ -4,19 +4,19 @@ const port = process.env.PORT || 3000;
 const path = require('path'); // Para trabalhar com caminhos de arquivos
 
 // Middleware para servir arquivos estáticos da pasta 'public'
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'teste_api')));
 
 // Definir rotas para páginas HTML
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'teste_api', 'index.html'));
 });
 
 app.get('/sobre', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'sobre.html'));
+    res.sendFile(path.join(__dirname, 'teste_api', 'sobre.html'));
 });
 
 app.get('/contato', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'contato.html'));
+    res.sendFile(path.join(__dirname, 'teste_api', 'contato.html'));
 });
 
 // Exemplo de uma rota da API que retorna dados JSON

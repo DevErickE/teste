@@ -1,0 +1,23 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000e\u0000s\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevErickE/teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevErickE/teste/issues"
+  },
+  "homepage": "https://github.com/DevErickE/teste#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
